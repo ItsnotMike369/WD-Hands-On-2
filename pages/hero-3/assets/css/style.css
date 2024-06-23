@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: #000;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    padding: 0px;
+}
+.space{
+    height: 20px;
+    background-color: #000;
+}
+.container-fluid{
+    background-color: #000;
+}
+.carousel-inner{
+    background-color: #000;
+}
+
+.carousel-inner img {
+    width: auto;
+    height: 800px;
+    border-radius: 20px;
+
+}
+.carousel-caption{
+    position: absolute;
+    top: 57%;
+    transform: translateY(-50%);
+    float: left;
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 7px 7px 10px #000;
+    padding-bottom: 1rem;
+}
+
+
